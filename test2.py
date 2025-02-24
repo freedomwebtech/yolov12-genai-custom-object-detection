@@ -10,7 +10,7 @@ from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Set up Google API Key
-GOOGLE_API_KEY = "AIzaSyDhlw797sBH6BzqwC_8dK78kODSSg7lBtg"
+GOOGLE_API_KEY = ""
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY  
 
 class PackageDetectionProcessor:
